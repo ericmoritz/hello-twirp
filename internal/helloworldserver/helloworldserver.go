@@ -11,8 +11,17 @@ type Server struct {}
 
 // Hello says hello!
 func (s *Server) Hello(ctx context.Context, req *pb.HelloReq) (*pb.HelloResp, error) {
+	if req.Subject == "Kenny" {
+		return nil, fmt.Errorf("Dammit %s", req.Subject)
+	}
+
+	text := "Hello, World"
+	if req.Subject != "" {
+		text = fmt.Sprintf("Hello, %s!", req.Subject)
+	}
+
 	resp := &pb.HelloResp{
-		Text: "Hello, World!",
+		Text: text,
 	}
 	return resp, nil
 }
