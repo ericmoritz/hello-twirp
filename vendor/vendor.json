@@ -1,0 +1,60 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "eG45Hg4ZnB4b1KuqsMknc5eAx4A=",
+			"path": "github.com/golang/protobuf/jsonpb",
+			"revision": "925541529c1fa6821df4e44ce2723319eb2be768"
+		},
+		{
+			"checksumSHA1": "C4fWGYAn426Q2R46v1tJGZXlsE4=",
+			"path": "github.com/golang/protobuf/jsonpb/jsonpb_test_proto",
+			"revision": "925541529c1fa6821df4e44ce2723319eb2be768"
+		},
+		{
+			"checksumSHA1": "WX1+2gktHcBmE9MGwFSGs7oqexU=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "925541529c1fa6821df4e44ce2723319eb2be768"
+		},
+		{
+			"checksumSHA1": "qyalT+838zrkZMjOA62VGus0VcI=",
+			"path": "github.com/golang/protobuf/proto/proto3_proto",
+			"revision": "925541529c1fa6821df4e44ce2723319eb2be768"
+		},
+		{
+			"checksumSHA1": "A0DxiyxXV4u8PmwUwlVkQ2CKyiQ=",
+			"path": "github.com/golang/protobuf/proto/testdata",
+			"revision": "925541529c1fa6821df4e44ce2723319eb2be768"
+		},
+		{
+			"checksumSHA1": "XNHQiRltA7NQJV0RvUroY+cf+zg=",
+			"path": "github.com/golang/protobuf/protoc-gen-go/descriptor",
+			"revision": "925541529c1fa6821df4e44ce2723319eb2be768"
+		},
+		{
+			"checksumSHA1": "Ylq6kq3KWBy6mu68oyEwenhNMdg=",
+			"path": "github.com/golang/protobuf/ptypes/struct",
+			"revision": "925541529c1fa6821df4e44ce2723319eb2be768"
+		},
+		{
+			"checksumSHA1": "WSCO9bKcc2/8YEulDKMvDL30GbA=",
+			"comment": "v5.1.0-9-g6bffc12",
+			"path": "github.com/twitchtv/twirp",
+			"revision": "6bffc12320cb3029505873434d67e8b0a9b7f04b"
+		},
+		{
+			"checksumSHA1": "gLZT1DBrUCW4BNxKzR+x76RG2PI=",
+			"comment": "v5.1.0-9-g6bffc12",
+			"path": "github.com/twitchtv/twirp/ctxsetters",
+			"revision": "6bffc12320cb3029505873434d67e8b0a9b7f04b"
+		},
+		{
+			"checksumSHA1": "dQ1ERv91W3bBMljYD3Y7UaZAUsw=",
+			"comment": "v5.1.0-9-g6bffc12",
+			"path": "github.com/twitchtv/twirp/internal/contextkeys",
+			"revision": "6bffc12320cb3029505873434d67e8b0a9b7f04b"
+		}
+	],
+	"rootPath": "github.com/ericmoritz/hello-twirp"
+}
