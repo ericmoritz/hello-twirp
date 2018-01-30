@@ -1,4 +1,2 @@
-*.pb.go
-*.twirp.go
 vendor/*/
 hello-twirp
