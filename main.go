@@ -18,7 +18,11 @@ func main() {
 	case "convert-resp":
 		protoToJSON(&pb.HelloResp{})
 	case "serve":
-		helloworldserver.ListenAndServe(":8080")
+		port := os.Getenv("PORT")
+		if port == "" {
+			port = "8080"
+		}
+		helloworldserver.ListenAndServe(":"+port)
 	default:
 		panic("arg(1) not in {convert-req, convert-resp, serve}")
 	}

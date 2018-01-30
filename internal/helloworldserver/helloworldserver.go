@@ -30,7 +30,7 @@ func (s *Server) Hello(ctx context.Context, req *pb.HelloReq) (*pb.HelloResp, er
 func ListenAndServe(bind string) {
 	server := &Server{}
 	twirpHandler := pb.NewHelloWorldServer(server, nil)
-	fmt.Printf("Serving on %T on :8080\n", twirpHandler)
+	fmt.Printf("Serving on %T on %v\n", twirpHandler, bind)
 	if err := http.ListenAndServe(bind, twirpHandler); err != nil {
 			panic(err)
 	}
