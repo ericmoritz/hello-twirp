@@ -1,1 +1,1 @@
-web: hello-twirp
+web: hello-twirp serve
