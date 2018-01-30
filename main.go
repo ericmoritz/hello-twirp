@@ -7,7 +7,7 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	"io/ioutil"
-	"fmt"
+	"github.com/ericmoritz/hello-twirp/internal/helloworldserver"
 )
 
 func main() {

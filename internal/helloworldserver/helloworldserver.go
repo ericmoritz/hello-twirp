@@ -1,4 +1,4 @@
-package helloserver
+package helloworldserver
 
 import (
 	"context"
